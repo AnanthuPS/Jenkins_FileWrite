@@ -1,6 +1,6 @@
 #Writing name to a file
 
-name = input("Enter your name : ")
+name = "Ananthu"
 fd = open("name.txt","w")
 fd.write(name)
 fd.close()
